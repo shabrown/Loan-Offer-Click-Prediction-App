@@ -10,22 +10,24 @@ Built and deployed a loan offer click prediction app that lenders can use to see
 
 Go to the terminal, locate your working directory and enter the following command:
 
-Clone the repo:
+Clone the repo:    
 
-    git clone https://github.com/shabrown/Loan-Offer-Click-Prediction-App.git
-    cd <repodir>
+'''
+    git clone https://github.com/shabrown/Loan-Offer-Click-Prediction-App.git    
+    cd <repodir>     
+'''  
+       
+Set up virtual enviroment:      
+
+    python3 -m venv env    
+    source env/bin/activate    
+    deactivate # to deactivate the virtual enviroment     
+
+Install packages and dependencies:     
     
-Set up virtual enviroment:
+    pip install -r requirements.txt      
 
-    python3 -m venv env
-    source env/bin/activate
-    deactivate # to deactivate the virtual enviroment
-
-Install packages and dependencies:
-    
-    pip install -r requirements.txt
-
-
+       
 ## How to Run the App: 
 
 To run the app:
