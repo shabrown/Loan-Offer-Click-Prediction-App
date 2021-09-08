@@ -1,0 +1,31 @@
+<html>
+    <body bgcolor=#FDFEFE, topmargin=30px>
+
+        <center>
+
+        <h1> LOAN OFFER CLICKS PREDICTION </h1><br>
+
+            <h3> LEAD INFORMATION: </h3><br>
+
+        <form method="POST", action="{{url_for('test2')}}">
+           <b> REQUESTED :  <input type="text", name='requested', placeholder="50000.0"> <br><br>
+            LOAN_PURPOSE : <input type="text", name='loan_purpose', placeholder="debt_consolidation"> <br><br>
+            CREDIT : <input type="text", name='credit', placeholder="good"> <br><br>
+            ANNUAL_INCOME : <input type="text", name='annual_income', placeholder="60000.0"> <br><br>
+
+            <h3> LOAN OFFER 1: </h3><br>
+            APR :  <input type="text", name='apr', placeholder="17.99"> <br><br>
+            LENDER ID :  <input type="text", name='lender_id', placeholder="1103"> <br><br>
+
+           <h3> LOAN OFFER 2: </h3><br>
+            APR :  <input type="text", name='apr2', placeholder="17.99"> <br><br>
+            LENDER ID :  <input type="text", name='lender_id2', placeholder="1103"> <br><br><br></b>
+            <input type="submit" , value='Predict!' >
+
+        </form>
+
+
+    </center>
+
+    </body>
+</html>
