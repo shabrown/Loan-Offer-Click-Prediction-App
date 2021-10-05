@@ -12,20 +12,59 @@ Go to the terminal, locate your working directory and enter the following comman
 
 Clone the repo:    
 
+<<<<<<< HEAD
 '''
     git clone https://github.com/shabrown/Loan-Offer-Click-Prediction-App.git    
     cd <repodir>     
 '''  
        
 Set up virtual enviroment:      
+||||||| merged common ancestors
+    git clone https://github.com/shabrown/Loan-Offer-Click-Prediction-App.git
+    cd <repodir>
+    
+Set up virtual enviroment:
+=======
+```
+  git clone https://github.com/shabrown/Loan-Offer-Click-Prediction-App.git
+  cd <repodir>
+```
 
+Set up virtual enviroment:
+>>>>>>> 2bb2d958f0d944bfdbfb36adae46dc2ed7500c2a
+
+<<<<<<< HEAD
     python3 -m venv env    
     source env/bin/activate    
     deactivate # to deactivate the virtual enviroment     
+||||||| merged common ancestors
+    python3 -m venv env
+    source env/bin/activate
+    deactivate # to deactivate the virtual enviroment
+=======
+``` 
+  python3 -m venv env
+  source env/bin/activate
+  deactivate # to deactivate the virtual enviroment
+```
+>>>>>>> 2bb2d958f0d944bfdbfb36adae46dc2ed7500c2a
 
+<<<<<<< HEAD
 Install packages and dependencies:     
     
     pip install -r requirements.txt      
+||||||| merged common ancestors
+Install packages and dependencies:
+    
+    pip install -r requirements.txt
+
+=======
+Install packages and dependencies:
+
+```
+  pip install -r requirements.txt
+```
+>>>>>>> 2bb2d958f0d944bfdbfb36adae46dc2ed7500c2a
 
        
 ## How to Run the App: 
