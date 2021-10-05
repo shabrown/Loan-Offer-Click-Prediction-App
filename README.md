@@ -11,14 +11,15 @@ Built and deployed a loan offer click prediction app that lenders can use to see
 Go to the terminal, locate your working directory and enter the following command:
     
 Clone the repo:     
-   
-'''
-    git clone https://github.com/shabrown/Loan-Offer-Click-Prediction-App.git    
-    cd <repodir>     
-'''  
+
+```
+    git clone https://github.com/shabrown/Loan-Offer-Click-Prediction-App.git    
+    cd <repodir> 
+ ```       
+  
    
 Set up virtual enviroment:   
-   
+  
 ```
     python3 -m venv env    
     source env/bin/activate    
@@ -41,11 +42,17 @@ To run the app:
 4. When you do, run the following command:  
    "python app.py"   
 5. If there is no error message, you should see a link to go to the app. Copy and paste the link in your browser.  
-![web app address](./images/web_app_address.png)   
-6. You should see the first web app like this:   
-![web app address](./images/web_app_1.png)   
-7. To go to the second one, simply add "/test" at the end of the web app address (e.g http://127.0.0.1:5000/test)   
+     
+![web app address](./images/web_app_address.png)
+    
+6. You should see the first web app like this: 
+      
+![web app address](./images/web_app_1.png) 
+    
+7. To go to the second one, simply add "/test" at the end of the web app address (e.g http://127.0.0.1:5000/test) 
+       
 ![web app address](./images/web_app_2.png)  
+      
 
 **IMPORTANT:**  
    
